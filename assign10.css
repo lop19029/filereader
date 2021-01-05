@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto&display=swap');
+
+/*fonts 
+font-family: 'Domine', serif;
+font-family: 'Roboto', sans-serif;
+*/
+body{
+    background-color: #f5f5f5;
+    color: #3c3c3c;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #3c3c3c;
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    padding: 8px;}
+th{
+font-family: 'Domine', serif;
+font-size: 1.3em;
+font-weight: 400;}
+tr:nth-child(even) {background-color:#3c3c3c; color: #f5f5f5;}
+a:link{text-decoration: none; color: #087e8b;}
+a:hover{color: #ff5a5f;}
+a:visited{color: #c1839f;}
